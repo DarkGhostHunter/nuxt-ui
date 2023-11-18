@@ -954,6 +954,19 @@ export const card = {
   }
 }
 
+export const cardGroup = {
+  base: 'overflow-hidden grid',
+  background: 'bg-white dark:bg-gray-900',
+  divide: 'divide-y divide-gray-200 dark:divide-gray-800',
+  ring: 'ring-1 ring-gray-200 dark:ring-gray-800',
+  rounded: 'rounded-lg',
+  shadow: 'shadow',
+  orientation: {
+    horizontal: 'grid-rows-1 grid-flow-col',
+    vertical: 'grid-cols-1 grid-flow-row'
+  }
+}
+
 export const container = {
   base: 'mx-auto',
   padding: 'px-4 sm:px-6 lg:px-8',
